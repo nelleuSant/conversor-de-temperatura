@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413_960_720.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+select {
+  margin: 5px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+input {
+  margin: 5px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-image: linear-gradient(#fe620f, #c41e17);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #b81b15;
+}
+
+button:hover {
+  background-image: linear-gradient(#c41e17, #fe620f);
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+h2 {
+  margin: 20px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.unidade {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
